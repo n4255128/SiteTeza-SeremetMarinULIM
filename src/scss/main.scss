@@ -1,19 +1,13 @@
-// Общие настройки и переменные
-@import 'vars';
+// базовые подключения
+@import "vars";s
+@import "mixins";
+@import "fonts";
+@import "settings";
 
-// Миксины
-@import 'mixins';
+// подключения компонентов страницы
+@import "./components/header";
 
-// Шрифты
-@import 'fonts';
-
-// Настройки компонентов
-@import 'settings';
-
-// Компоненты страницы
-@import './components/header';
-
-// Тестовые стили
+// тестовые стили, удалите их
 .page__body {
   display: flex;
   align-items: center;

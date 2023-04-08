@@ -8,6 +8,13 @@ html {
   box-sizing: inherit;
 }
 
+body{
+  margin: 0;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  background-color: var(--color-white);
+}
+
 .page {
   height: 100%;
   font-family: var(--font-family, sans-serif);
@@ -29,6 +36,7 @@ img {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .site-container {
@@ -80,8 +88,8 @@ a {
 
 .container {
   margin: 0 auto;
-  padding: 0 var(--container-offset);
-  max-width: var(--container-width);
+  padding: 0 50px;
+ // max-width: var(--container-width);
 }
 
 .js-focus-visible :focus:not(.focus-visible) {

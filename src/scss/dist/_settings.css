@@ -44,8 +44,8 @@ a {
 }
 
 .is-hidden {
+  /* stylelint-disable-next-line declaration-no-important */
   display: none !important;
-  /* stylelint-disable-line declaration-no-important */
 }
 
 .btn-reset {
@@ -68,7 +68,11 @@ a {
   border-radius: 0;
   background-color: #fff;
 }
-.input-reset::-webkit-search-decoration, .input-reset::-webkit-search-cancel-button, .input-reset::-webkit-search-results-button, .input-reset::-webkit-search-results-decoration {
+
+.input-reset::-webkit-search-decoration,
+.input-reset::-webkit-search-cancel-button,
+.input-reset::-webkit-search-results-button,
+.input-reset::-webkit-search-results-decoration {
   display: none;
 }
 

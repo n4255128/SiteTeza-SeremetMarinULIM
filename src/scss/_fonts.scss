@@ -1,5 +1,3 @@
-
-@include font-face("Jost-Bold", "Jost-Bold", 700);
-@include font-face("Jost-Medium", "Jost_Medium", 500);
-
-
+// Подключение шрифтов с помощью миксина
+@include font-face('Jost', 'src/resources/fonts/Jost-Bold', 700, normal);
+@include font-face('Jost', 'src/resources/fonts/Jost-Medium', 500, normal);
